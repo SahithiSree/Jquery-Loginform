@@ -1,0 +1,214 @@
+.section1,
+.section3 {
+    text-align: center;
+
+}
+
+.step1,
+.step2 {
+    color: rgb(24, 15, 205);
+    margin-top: 5%;
+}
+
+/* inputs styling */
+input[type='radio'],
+input[type='checkbox'] {
+    border: 1.5px solid rgb(24, 15, 205);
+}
+
+input[type='radio']:hover,
+input[type='checkbox']:hover {
+    cursor: pointer;
+    border: 2px solid teal;
+    box-shadow: 0 0 3px 3px rgba(0, 120, 120, 0.4);
+}
+
+input::placeholder {
+    font-weight: 300;
+    color: rgb(24, 15, 205);
+}
+
+input,
+.state {
+    box-sizing: border-box;
+    border: 2px solid rgb(24, 15, 205);
+    height: 40px;
+    background-color: white;
+    color: rgb(24, 15, 205);
+}
+
+input:placeholder-shown,
+.state {
+    padding-left: 10px;
+}
+
+.radioBtns label:hover,
+.form-checkBox label:hover,
+.form-radio label:hover {
+    cursor: pointer;
+}
+
+.form-radio-label {
+    padding-right: 20px;
+}
+
+.checkbox-wrapper label input:checked~.checkboxcheck {
+    background-color: #006eb8;
+    border: 2px solid #fff;
+    outline: 2px solid;
+}
+
+.checkboxcheck {
+    width: 19px;
+    height: 19px;
+}
+
+.checkboxcheck {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    margin-top: 5px;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+/* section-2 and form styling */
+
+.section2 {
+    margin-top: 3%;
+}
+
+h1,
+h5,
+.buttonDiv {
+    text-align: center;
+}
+
+.hr {
+    border: 1px solid rgba(24, 15, 205, 0.5);
+
+}
+
+.subContainer {
+    width: 100%;
+    padding: 5% 15%;
+    justify-content: center;
+}
+
+/* Form fields styling */
+
+.form-checkBox {
+    width: 830px;
+    word-wrap: break-word;
+    line-height: 20px;
+    letter-spacing: 1px;
+    padding: 10px 0;
+
+}
+
+.form-row1,
+.form-row4 {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    column-gap: 30px;
+}
+
+.form-row2 {
+    display: grid;
+    grid-template-columns: 830px;
+
+}
+
+.form-row3,
+.errors {
+    display: grid;
+    grid-template-columns: repeat(3, 255px);
+    column-gap: 32px;
+
+}
+
+.submitBtn,
+.form-submit,
+.backBtn {
+    background-color: rgb(24, 15, 205);
+    color: white;
+    height: 50px;
+    border: none;
+    width: 20%;
+    font-weight: bolder;
+    opacity: 0.9;
+}
+
+.form-submit {
+
+    width: 30%;
+    margin-top: 20px;
+
+}
+
+.submitBtn:hover,
+.form-submit:hover,
+.backBtn:hover {
+    background-color: teal;
+}
+
+.my-radio {
+    margin-right: 5px;
+}
+
+
+
+.form-checkBox a,
+.form-checkBox a:hover {
+    color: rgb(24, 15, 205);
+}
+
+/* error messages styling  */
+.error p {
+    width: 22px;
+    height: 22px;
+    background: red;
+    border-radius: 60%;
+    text-align: center;
+    font-size: 16px;
+    font-style: bold;
+    color: rgb(229, 224, 224);
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.error {
+    color: red;
+    font-size: 18px;
+}
+
+.form-label {
+    padding-left: 20px;
+    font-weight: 600;
+}
+
+.errorContainer {
+    display: flex;
+}
+
+/* section-3 styling */
+
+.section3 {
+    background-color: rgb(24, 15, 205);
+    height: 200px;
+    padding: 40px;
+    color: white;
+    word-spacing: 2px;
+    margin-top: 3%;
+}
+
+.section3 a {
+    color: white;
+}
